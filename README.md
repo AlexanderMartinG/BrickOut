@@ -6,4 +6,5 @@ Este repositorio contiene varios scripts para hacer funcionar el juego dentro de
 
 ## Scripts vistos en clase
 •[BrickManager.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/BrickManager.cs)
+
 •[BrickGenerator.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/BrickGenerator.cs)
