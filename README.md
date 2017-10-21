@@ -9,10 +9,16 @@ Este repositorio contiene varios scripts para hacer funcionar el juego dentro de
 ### Brick Manager
 Script que se añade a los Prefabs de los ladrillos para definir su color y salud.
 
-•[BrickManager.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/BrickManager.cs) //visto en clase
+•[BrickManager.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/Scripts/BrickManager.cs) //visto en clase
 
 ### Brick Generator
 Script que se añade al empty a partir del cual se generaran los ladrillos.
 
-•[BrickGenerator.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/BrickGenerator.cs) // visto en clase
+•[BrickGenerator.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/Scripts/BrickGenerator.cs) // visto en clase
+
+### Game Manager
+Script que controla la ejecucion y funcionamiento del juego.
+
+•[GameManager.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/Scripts/GameManager.cs) // visto en clase
+
 
