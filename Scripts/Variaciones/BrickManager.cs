@@ -6,8 +6,10 @@ public class BrickManager : MonoBehaviour {
 	public Color brickColor;
 	public int brickHealth;
 
-	public Texture brickTexture1; //Textura que se aplica al ladrillo cuando le queda 1 vida
-	public Texture brickTexture2; //Textura que se aplica al ladrillo cuando le quedan 2 vidas
+	public GameObject powerUp; //Indica el prefab de Power Up que crea el ladrillo al destruirse
+	public bool puedeGenerarPowerUp; //Indica si se generara un power up o no al destruirse el ladrillo
+
+	public float distanciaGeneracionPowerUp; //Distancia en eje X que se agrega al generar el power up para que no pueda colisionar con los ladrillos o la pelota
 
 	// Use this for initialization
 	void Start () {
@@ -24,18 +26,9 @@ public class BrickManager : MonoBehaviour {
 			
 			Destroy (gameObject); //Funcion que destruye el ladrillo
 
-		}
-
-		//Condicionales que aplican texturas
-		if(brickHealth == 1) {
-
-			gameObject.GetComponent<Renderer> ().material.mainTexture = brickTexture1;
-
-		}
-
-		if(brickHealth == 2) {
-
-			gameObject.GetComponent<Renderer> ().material.mainTexture = brickTexture2;
+			if (puedeGenerarPowerUp) {
+				Instantiate (powerUp, new Vector3(transform.position.x,transform.position.y,transform.position.z - distanciaGeneracionPowerUp), Quaternion.identity);
+			}
 
 		}
 		
