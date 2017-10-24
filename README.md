@@ -13,6 +13,8 @@ Script que se añade a los Prefabs de los ladrillos para definir su color y salu
 
 •[BrickManager.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/Scripts/Variaciones/BrickManager.cs) //variación que añade texturas de forma dinámica en los ladrillos al ser golpeados por la pelota, [video de ejemplo](https://youtu.be/yMjRDXnQ6QE)
 
+•[BrickManager.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/Scripts/Variaciones/BrickManager.cs) // Actualizacion del Script para poder generar Power Ups al destruir los ladrillos, video de ejemplo:[https://youtu.be/cf9dSYkxACU]
+
 ### Brick Generator
 Script que se añade al empty a partir del cual se generaran los ladrillos.
 
@@ -30,10 +32,15 @@ Segmento del Script Raqueta que contiene las Funciones y Corrutinas del Power Up
 
 •[Raqueta.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/Scripts/Raqueta.cs) // visto en clase
 
+•[Raqueta.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/Scripts/Variaciones/Raqueta.cs) // variación del Script que incluye variables para controlar los valores como el tiempo de aplicacion de los power up y donde se genera el power up para que no colisione con los ladrillos, video de ejemplo:[https://youtu.be/cf9dSYkxACU]
+
 ### Agrandar
 Script que se aplica al prefab de Power Up para agrandar la iniciar la corrutina de agrandar raqueta cuando este colisiona con la raqueta.
 
-•[Raqueta.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/Scripts/Raqueta.cs) // visto en clase
+•[Agrandar.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/Scripts/Agrandar.cs) // visto en clase
+
+•[Agrandar.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/Scripts/Variaciones/Agrandar.cs) // variación del Script que incluye variables para controlar los valores como el tiempo de aplicacion de los power up y donde se genera el power up para que no colisione con los ladrillos, video de ejemplo:[https://youtu.be/cf9dSYkxACU]
 
 
-
+#### Aviso
+Me preguntaron cómo hacer un Script para generar pelotas y les dije que subiría un video, pero algunos alumnos ya programaron este Power Up en sus juegos y sería injusto si ahora subiera un video de cómo hacerlo, por ese motivo no se va a subir el video, pero puede programar el Power Up ustedes mismos usando la función Instantiate.
