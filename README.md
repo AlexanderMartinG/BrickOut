@@ -11,8 +11,6 @@ Script que se añade a los Prefabs de los ladrillos para definir su color y salu
 
 •[BrickManager.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/Scripts/BrickManager.cs) //visto en clase
 
-•[BrickManager.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/Scripts/Variaciones/BrickManager.cs) //variación que añade texturas de forma dinámica en los ladrillos al ser golpeados por la pelota, [video de ejemplo](https://youtu.be/yMjRDXnQ6QE)
-
 •[BrickManager.cs](https://github.com/AlexanderMartinG/BrickOut/blob/master/Scripts/Variaciones/BrickManager.cs) // Actualizacion del Script para poder generar Power Ups al destruir los ladrillos, video de ejemplo:[https://youtu.be/cf9dSYkxACU]
 
 ### Brick Generator
